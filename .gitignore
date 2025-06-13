@@ -1,0 +1,9 @@
+# Arquivos executáveis
+*.exe
+
+# Binários compilados
+/bin/
+/bin/*
+
+# Arquivos objeto (caso estejam fora da bin/)
+*.o
