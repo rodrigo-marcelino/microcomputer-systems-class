@@ -1,9 +1,9 @@
-# Arquivos executáveis
+# Ignore all executable files
 *.exe
 
-# Binários compilados
-/bin/
-/bin/*
-
-# Arquivos objeto (caso estejam fora da bin/)
+# Ignore all compiled object files
 *.o
+
+# Ignore all 'bin' directories and their contents, no matter where they are
+**/bin/
+**/bin/*
