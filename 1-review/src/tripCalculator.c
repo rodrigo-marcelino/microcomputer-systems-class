@@ -1,9 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// ? main function -> entrance point: first thing the OS looks for and executes
-// ? int argc (argument count): quantidade de argumentos que foram passados para o programa na linha de comando ao chamar o executável
-// ? char *argv´[] (Argument Vector):  vetor de ponteiros para caracteres. Cada elemento desse vetor aponta para uma string que representa um dos argumentos passados na linha de comando -> argv[0] sempre será o nome do programa 
+/*
+ ? main function: the entry point of your program. It's the first thing the OS searches for and executes.
+ 
+ ? Argument Count (int argc): The total number of arguments passed via the Command Line Interface (CLI) when the program is executed.
+
+ ? Argument Vector (char *argv[]): A pointer array to characters (i.e., an array of strings). Each element points to a string representing one of the arguments passed through the CLI.
+
+ ! NOTE: argv[0] is always the program's name itself.
+ */
 
 int main(int argc, char *argv[]){
 
