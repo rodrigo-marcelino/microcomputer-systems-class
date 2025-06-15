@@ -7,3 +7,26 @@
 # Ignore all 'bin' directories and their contents, no matter where they are
 **/bin/
 **/bin/*
+
+# Dependências
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build (caso use futuramente)
+dist/
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
