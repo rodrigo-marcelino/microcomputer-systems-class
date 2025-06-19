@@ -1,0 +1,12 @@
+{
+  "name": "5-socket-node",
+  "version": "1.0.0",
+  "description": "Understanding sockets with Node.js",
+  "main": "index.js",
+  "author": "Rodrigo Marcelino",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
